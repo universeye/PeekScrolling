@@ -27,7 +27,7 @@ struct ContentView: View {
                     ForEach(0 ..< 4) { item in
                         GeometryReader { geometry in
                             cardView(minY: geometry.frame(in: .global).minY)
-                            //Text("\(geometry.frame(in: .global).minY / 1000 + 1)")
+                            Text("\(geometry.frame(in: .global).minY)")
                         }
                         .frame(maxWidth: .infinity)
                         .frame(height: 440)

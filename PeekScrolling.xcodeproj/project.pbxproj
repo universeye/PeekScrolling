@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5F732C2653C1C700DBFAE7 /* ignore1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F732B2653C1C700DBFAE7 /* ignore1.swift */; };
 		BFCEA07625DCE1A900F0CE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEA07525DCE1A900F0CE27 /* AppDelegate.swift */; };
 		BFCEA07825DCE1A900F0CE27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEA07725DCE1A900F0CE27 /* SceneDelegate.swift */; };
 		BFCEA07A25DCE1A900F0CE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEA07925DCE1A900F0CE27 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5F732B2653C1C700DBFAE7 /* ignore1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ignore1.swift; sourceTree = "<group>"; };
 		BFCEA07225DCE1A900F0CE27 /* PeekScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEA07525DCE1A900F0CE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCEA07725DCE1A900F0CE27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5F732A2653C1BD00DBFAE7 /* env */ = {
+			isa = PBXGroup;
+			children = (
+				BF5F732B2653C1C700DBFAE7 /* ignore1.swift */,
+			);
+			path = env;
+			sourceTree = "<group>";
+		};
 		BFCEA06925DCE1A800F0CE27 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 				BFCEA07525DCE1A900F0CE27 /* AppDelegate.swift */,
 				BFCEA07725DCE1A900F0CE27 /* SceneDelegate.swift */,
 				BFCEA07925DCE1A900F0CE27 /* ContentView.swift */,
+				BF5F732A2653C1BD00DBFAE7 /* env */,
 				BFCEA07B25DCE1AB00F0CE27 /* Assets.xcassets */,
 				BFCEA08025DCE1AB00F0CE27 /* LaunchScreen.storyboard */,
 				BFCEA08325DCE1AB00F0CE27 /* Info.plist */,
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCEA07625DCE1A900F0CE27 /* AppDelegate.swift in Sources */,
+				BF5F732C2653C1C700DBFAE7 /* ignore1.swift in Sources */,
 				BFCEA07825DCE1A900F0CE27 /* SceneDelegate.swift in Sources */,
 				BFCEA07A25DCE1A900F0CE27 /* ContentView.swift in Sources */,
 			);
