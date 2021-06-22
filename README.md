@@ -1,6 +1,6 @@
 # Peek Scrolling Animation
 
-SwiftUI, peek scrolling animation and card tapped animation, using GeometryReader, follow the courses by [MengTo](https://twitter.com/MengTo).
+SwiftUI, peek scrolling animation and card tapped animation, using GeometryReader, follow the livestream tutorial by [MengTo](https://twitter.com/MengTo).
 
 
 # Menu
